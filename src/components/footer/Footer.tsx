@@ -106,13 +106,13 @@ export const Footer = () => {
         <div className="mx-auto max-w-7xl px-2 py-3">
           <div className="flex flex-col items-center justify-between gap-3 text-xs font-medium text-neutral-700 md:flex-row">
             <p>{t('copyright')}</p>
-            <Link href="https://github.com/mehrabmp/kara-shop" target="_blank">
+            <Link href="https://github.com/deleon1019/kara-shop" target="_blank">
               <BsGithub size="1.25rem" />
             </Link>
             <p>
               {`${t('createdBy')} `}
               <strong>
-                <Link href="https://github.com/mehrabmp" target="_blank">
+                <Link href="https://github.com/deleon1019" target="_blank">
                   Mehrab
                 </Link>
               </strong>

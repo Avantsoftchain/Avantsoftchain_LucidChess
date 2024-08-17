@@ -49,7 +49,7 @@ TWITTER_CLIENT_SECRET=YOUR_TWITTER_CLIENT_SECRET
 Clone the project
 
 ```bash
-  git clone https://github.com/mehrabmp/kara-shop.git
+  git clone https://github.com/deleon1019/kara-shop.git
 ```
 
 Go to the project directory
