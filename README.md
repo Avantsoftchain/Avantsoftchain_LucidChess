@@ -1,83 +1,29 @@
-# KARA Shop
-
-Full-stack e-commerce built with [T3 Stack](https://create.t3.gg/)
-
-- **Framework**: [Next.js](https://nextjs.org/)
-- **Database**: [PostgreSQL](https://www.postgresql.org/)
-- **ORM**: [Prisma](https://prisma.io/)
-- **Authentication**: [NextAuth.js](https://next-auth.js.org/)
-- **Deployment**: [Vercel](https://vercel.com)
-- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
-
-Home page
-![homepage](public/screenshots/homepage.png)
-
-Products page
-![homepage](public/screenshots/products.png)
-
-## Environment Variables
-
-To run this project, you will need to add the following environment variables to your `.env` file
-
-```bash
-# Database URL for prisma
-DATABASE_URL="postgresql://johndoe:randompassword@localhost:5432/mydb?schema=public"
-
-# URL of the website
-NEXTAUTH_URL='http://localhost:3000'
-
-# Used to hash tokens, sign/encrypt cookies and ...
-# You can quickly create a good value with this command
-# openssl rand -base64 32
-NEXTAUTH_SECRET=VJmi1XgBd48qWC2xn/kNRc15OIY+P4a1uXgV42uaHuw=
-
-# GitHub oAuth
-GITHUB_ID=YOUR_GITHUB_CLIENT_ID
-GITHUB_SECRET=YOUR_GITHUB_CLIENT_SECRET
-
-# Google oAuth
-GOOGLE_CLIENT_ID=YOUR_GOOGLE_CLIENT_ID
-GOOGLE_CLIENT_SECRET=YOUR_GOOGLE_CLIENT_SECRET
-
-# Twitter oAuth
-TWITTER_CLIENT_ID=YOUR_TWITTER_CLIENT_ID
-TWITTER_CLIENT_SECRET=YOUR_TWITTER_CLIENT_SECRET
+# Installation Guide
+## Backend
+```
+cd lucid-chess-server
+npm install
+npm start
+```
+## Frotnend
+```
+cd lucid-chess-client
+npm install
+npm start
 ```
 
-## Run Locally
+# Brief
+Lucid Chess is a captivating chess game developed by a team of skilled programmers and game enthusiasts. With a focus on providing an immersive and enjoyable gaming experience, Lucid Chess combines the timeless strategy of chess with modern technology and stunning visuals.
 
-Clone the project
+The development of Lucid Chess began with a vision to create a game that would appeal to both seasoned chess players and newcomers to the game. The team meticulously designed the game mechanics to ensure a balance between complexity and accessibility, allowing players of all skill levels to enjoy the game.
 
-```bash
-  git clone https://github.com/deleon1019/kara-shop.git
-```
+One of the key features of Lucid Chess is its intuitive user interface, which makes it easy for players to navigate the game and make their moves. The game also offers various gameplay modes, including single-player against AI opponents, multiplayer online matches, and even the option to play against friends locally.
 
-Go to the project directory
+To ensure the highest level of gameplay, the developers implemented advanced AI algorithms that provide challenging opponents for players. The AI adapts to the player's skill level, offering a dynamic and engaging experience every time.
 
-```bash
-  cd kara-shop
-```
+The development team also focused on creating visually stunning graphics and animations that enhance the overall gaming experience. From intricately designed chess pieces to beautifully rendered environments, Lucid Chess immerses players in a visually captivating world.
 
-Install dependencies
+In conclusion, Lucid Chess is the result of a dedicated team's passion for chess and game development. With its blend of strategic gameplay, intuitive interface, and stunning visuals, Lucid Chess offers a truly immersive and enjoyable chess experience for players of all levels.
 
-```bash
-  pnpm install
-```
-
-Apply migrations to database
-
-```bash
-  pnpm migrate-dev
-```
-
-Seed the database
-
-```bash
-  pnpm db-seed
-```
-
-Start the server
-
-```bash
-  pnpm dev
-```
+# Target
+Implementing a crypto wallet in an existing Lucid game can provide players with a seamless and secure way to manage their in-game assets and participate in the growing world of blockchain gaming. By integrating a crypto wallet, players can securely store, trade, and transfer their digital assets within the game environment.
